@@ -23,7 +23,7 @@ public class Frame extends JFrame {
 
         background.setBounds(0, 0, 1366, 768);
         start.setBounds(50, 50, 382, 72);
-        exid.setBounds(50, 144, 280, 74);
+        exid.setBounds(50, 164, 280, 74);
         effects.setBounds(0,0,390,80);
         effects.setVisible(false);
 
