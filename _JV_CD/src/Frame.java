@@ -59,7 +59,12 @@ public class Frame extends JFrame {
         repaint();
     }
     private void startGame(){
+        repaint();
         removeAll();
+        repaint();
+        JLabel ll=new JLabel(new ImageIcon("images/boyBohdan.png"));
+        ll.setBounds(50,50,500,500);
+        add(ll);
         repaint();
     }
 }
