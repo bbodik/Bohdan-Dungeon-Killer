@@ -30,7 +30,7 @@ public class Frame extends JFrame {
         start.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                System.out.println("1");
+                startGame();
             }
         });
         start.addMouseListener(new MouseAdapter() {
@@ -56,6 +56,10 @@ public class Frame extends JFrame {
         background.add(exid);
         background.add(effects);
         add(background);
+        repaint();
+    }
+    private void startGame(){
+        removeAll();
         repaint();
     }
 }
