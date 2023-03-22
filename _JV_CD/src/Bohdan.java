@@ -12,7 +12,7 @@ public class Bohdan {
             @Override
             public void run() {
                 while (true){
-
+//implementation of falling image
                 }
             }
         });
